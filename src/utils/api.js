@@ -20,7 +20,7 @@ const api = {
   // getMovieList: () => request.post('/v1/two', {
   //   url: '/api/channel/movie/more/0?channel=wdj&version=4.0.2&uuid=ffffffff-a90e-706a-63f7-ccf973aae5ee&platform=android'
   // }),
-  getMovieList: () => request.get('/v1/hot'),
+  getMovieList: () => request.get('/v1/zhihu'),
   getMovieDetail: (id) => request.get(`/v1/one?${encodeURI('url=/api/movie/' + id + '/story/1/0?version=3.5.0&platform=android')}`),
   getWeather: (location) => request.get(`/v1/weather?location=${location}`),
   // 知乎日报

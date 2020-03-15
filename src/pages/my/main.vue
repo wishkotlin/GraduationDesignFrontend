@@ -15,8 +15,8 @@
     <div style="display: flex;align-items: center;padding: 20px;background: #fff;margin-bottom: 20px;">
       <div><img style="width: 50px;border-radius: 50%;border: 1px #d2d2d2 solid;" src="static/assert/music.png" alt=""></div>
       <div style="padding-left: 20px;display: flex;flex-direction: column;">
-        <div>娱乐</div>
-        <div style="font-size: 15px;color: #888;">UUID: 10004</div>
+        <div>bilibili</div>
+        <div style="font-size: 15px;color: #888;">UUID: liulinboyi</div>
       </div>
     </div>
     <div style="padding: 20px 0;color: #888;padding: 20px;background: #fff;border-bottom: 1px #efefef solid;">

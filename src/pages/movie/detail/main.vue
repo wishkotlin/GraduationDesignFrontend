@@ -17,7 +17,8 @@ export default {
   onLoad(query) {
     // this.clearMovieDetail()
     console.log(query);
-    this.id = `https://s.weibo.com/weibo?q=${query.id}`
+    // this.id = `https://s.weibo.com/weibo?q=${query.id}`
+    this.id = query.id;
     console.log(this.id);
   },
   data() {
