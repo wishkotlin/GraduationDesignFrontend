@@ -50,9 +50,9 @@ export default {
   }
 
   .item:nth-child(odd) {
-    background-color: #e5e4df;
+    /* background-color: #e5e4df; */
   }
   .item:nth-child(even) {
-    background-color: #eae9e4;
+    /* background-color: #eae9e4; */
   }
 </style>

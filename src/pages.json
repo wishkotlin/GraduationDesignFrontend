@@ -4,7 +4,7 @@
         //     "path": "pages/home/main",
         //     "style": {
         //         "navigationBarTitleText": "首页",
-        //         "navigationBarBackgroundColor": "#f85d00",
+        //         "navigationBarBackgroundColor": "#fb7299",
         //         "navigationBarTextStyle": "white",
         //         "h5": {
         //             "titleNView": {
@@ -17,7 +17,7 @@
             "path": "pages/my/main",
             "style": {
                 "navigationBarTitleText": "个人中心",
-                "navigationBarBackgroundColor": "#f85d00",
+                "navigationBarBackgroundColor": "#fb7299",
                 "navigationBarTextStyle": "white",
                 "backgroundColor": "#888",
                 "h5": {
@@ -43,28 +43,28 @@
             "path": "pages/movie/main",
             "style": {
                 "navigationBarTitleText": "热点",
-                "navigationBarBackgroundColor": "#f85d00"
+                "navigationBarBackgroundColor": "#fb7299"
             }
         },
         {
             "path": "pages/movie/detail/main",
             "style": {
                 "navigationBarTitleText": "bilibili",
-                "navigationBarBackgroundColor": "#f85d00"
+                "navigationBarBackgroundColor": "#fb7299"
             }
         },
         {
             "path": "pages/daily/main",
             "style": {
                 "navigationBarTitleText": "日报",
-                "navigationBarBackgroundColor": "#f85d00"
+                "navigationBarBackgroundColor": "#fb7299"
             }
         },
         {
             "path": "pages/daily/detail/main",
             "style": {
                 "navigationBarTitleText": "日报",
-                "navigationBarBackgroundColor": "#f85d00"
+                "navigationBarBackgroundColor": "#fb7299"
             }
         }
     ],
