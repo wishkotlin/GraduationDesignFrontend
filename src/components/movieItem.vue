@@ -39,7 +39,7 @@ export default {
     line-height: 40rpx;
     /* margin-bottom: 10rpx; */
     font-weight: bold;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     overflow: hidden;
     text-overflow: ellipsis;
   }
