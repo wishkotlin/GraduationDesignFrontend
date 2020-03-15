@@ -33,7 +33,11 @@
             }
         },
         {
-            "path": "pages/movie/detail/main"
+            "path": "pages/movie/detail/main",
+            "style": {
+                "navigationBarTitleText": "微博",
+                "navigationBarBackgroundColor": "#f85d00"
+            }
         },
         {
             "path": "pages/daily/main",
