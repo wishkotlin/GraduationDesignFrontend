@@ -14,6 +14,34 @@
         //     }
         // },
         {
+            "path": "pages/login/main",
+            "style": {
+                "navigationBarTitleText": "登录",
+                "navigationBarBackgroundColor": "#fb7299",
+                "navigationBarTextStyle": "white",
+                "backgroundColor": "#888",
+                "h5": {
+                    "titleNView": {
+                        "titleColor": "#fff"
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/register/main",
+            "style": {
+                "navigationBarTitleText": "注册",
+                "navigationBarBackgroundColor": "#fb7299",
+                "navigationBarTextStyle": "white",
+                "backgroundColor": "#888",
+                "h5": {
+                    "titleNView": {
+                        "titleColor": "#fff"
+                    }
+                }
+            }
+        },
+        {
             "path": "pages/my/main",
             "style": {
                 "navigationBarTitleText": "个人中心",

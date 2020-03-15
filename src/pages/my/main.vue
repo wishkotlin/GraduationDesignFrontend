@@ -25,7 +25,7 @@
     <div style="padding: 20px 0;color: #888;padding: 20px;background: #fff;border-bottom: 1px #efefef solid;">
       设置
     </div>
-    <div style="padding: 20px 0;color: #888;padding: 20px;background: #fff;">
+    <div @click="quite" style="padding: 20px 0;color: #888;padding: 20px;background: #fff;">
       退出
     </div>
     <div style="margin-top: 100px;margin-top: 100px;text-align: center;color: #888;">
@@ -36,10 +36,12 @@
 
 <script>
 import { mapState, mapActions } from 'vuex'
+import auth from '../../utils/auth';
 export default {
   mounted() {
     this.initPage()
   },
+  mixins: [auth],
   components: {
   },
   computed: {
@@ -54,6 +56,21 @@ export default {
     async initPage() {
       await this.getNewIds()
       await this.getHomeData()
+    },
+    quite() {
+      uni.showModal({
+        title: '提示',
+        content:'您确定要退出吗？',
+        success(e) {
+          console.log(e);
+          if (e.confirm) {
+           uni.removeStorageSync('userInfo')
+            uni.navigateTo({
+              url: '/pages/login/main'
+            })
+          }
+        }
+      })
     }
   }
 }
