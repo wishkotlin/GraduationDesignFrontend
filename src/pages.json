@@ -14,6 +14,20 @@
             }
         },
         {
+            "path": "pages/my/main",
+            "style": {
+                "navigationBarTitleText": "个人中心",
+                "navigationBarBackgroundColor": "#f85d00",
+                "navigationBarTextStyle": "white",
+                "backgroundColor": "#888",
+                "h5": {
+                    "titleNView": {
+                        "titleColor": "#fff"
+                    }
+                }
+            }
+        },
+        {
             "path": "pages/read/main",
             "style": {
                 "navigationBarTitleText": "文章&问答"
@@ -87,6 +101,12 @@
                 "text": "日报",
                 "iconPath": "static/icon/daily.png",
                 "selectedIconPath": "static/icon/daily-active.png"
+            },
+            {
+                "pagePath": "pages/my/main",
+                "text": "个人中心",
+                "iconPath": "static/icon/read.png",
+                "selectedIconPath": "static/icon/read-active.png"
             }
         ]
     }
